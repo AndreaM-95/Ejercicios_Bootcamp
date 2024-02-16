@@ -1,0 +1,55 @@
+body{
+    background: #0b0733;
+}
+.contenedor-principal{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: #2AB6D6;
+    width: 100%;
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+.contenedor-perfil{
+    width:25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient( #44227E, #0A0E37);
+    padding: 20px;
+    margin: auto;
+    border: solid;
+    border-image: linear-gradient(to right, #00E0FF,#BB5AF6)2;
+}
+
+.imagen-perfil{
+    height: auto;
+    width: 50%;
+    border-radius: 30px;
+    border: solid rgb(48, 5, 89);
+}
+
+.pais-perfil{
+    color:#7F8DFF;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+.cargo-perfil{
+    font-style: italic;
+    color: #C7CDFD;
+    font-size: 20px;
+    margin: 0;
+}
+
+.resena-perfil{
+    font-size: 18px;
+    text-align: left;
+    color: #9DA0B9;
+    text-align: justify;
+}

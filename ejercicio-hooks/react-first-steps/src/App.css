@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background: #0b0733;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App {
+  text-align: center; 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titulo{
+  color: #2AB6D6;
+  width: 100%;
+  font-size: 35px;
+  margin: 50px 0;
+  text-shadow: 2px 2px 3px rgba(199, 193, 193, 0.8);
+}

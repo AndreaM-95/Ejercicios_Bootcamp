@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        background-color: peachpuff;
+    }
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before > div{
+    color: orange !important;
+}
+
+.slick-next{
+    right: 20px;
+}
+.slick-prev{
+    left: 20px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 35px;
+    color:rgb(137, 65, 36);
+}
+
+.slick-dots{
+    bottom: 15px;
+}
+.slick-dots li button:before{
+    font-size: 12px;
+}

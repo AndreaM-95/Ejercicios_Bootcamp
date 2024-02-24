@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body{
-        background-color: peachpuff;
-    }
+body{
+    background-color: rgb(209, 208, 187);
 }
 
 .slick-slide > div{

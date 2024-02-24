@@ -29,7 +29,9 @@ function App() {
           <Slider {...settings} className='bg-orange-200 my-8 rounded-xl p-5 shadow-lg shadow-indigo-900/60'>
             {data.map((d)=>(
               <>
-                <img key={d.name} src={d.img} alt='' className='h-56 w-56 rounded-full my-auto mx-auto'></img>
+                <div key={d.name}>
+                  <img src={d.img} alt='' className='h-56 w-56 rounded-full my-auto mx-auto'></img>
+                </div>
 
                 <div className='flex flex-col item-center justify-center gap-5 p-5'>
                   <p className='text-2xl font-semibold text-amber-700'>{d.name}</p>

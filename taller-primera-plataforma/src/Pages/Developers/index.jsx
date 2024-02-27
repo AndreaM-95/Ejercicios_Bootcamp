@@ -26,7 +26,7 @@ export default function Developers() {
       img: `../src/assets/Photos/perfil-Miguel.png`, 
       name: 'MIGUEL ÁNGEL DURÁN GARCÍA', 
       area: 'Desarrollo web y aplicaciones',
-      review: 'Empecé en la programación trasteando con Locomotive BASIC con un Amstrad CPC 464 que me regaló mi padre. De ahí hasta el día de hoy he tocado muchas tecnologías y lenguajes muy diferentes.Una de mis mayores motivaciones es aprender. Así empecé mis años de autodidacta, devorando libros y tutoriales que iba encontrando. Años más tarde cursé la Ingenieria Técnica de Informática de Gestión en la UOC. Y, desde entonces, no he parado ni un momento para seguir trabajando como desarrollador y seguir aprendiendo.',
+      review: 'Empecé en la programación trasteando con Locomotive BASIC con un Amstrad CPC 464 que me regaló mi padre. Así empecé mis años de autodidacta, devorando libros y tutoriales que iba encontrando. Años más tarde cursé la Ingenieria Técnica de Informática de Gestión en la UOC. Y, desde entonces, no he parado ni un momento para seguir trabajando como desarrollador y seguir aprendiendo.',
       urlLinkedin: 'https://www.linkedin.com/in/midudev/',
       urlYouTube: 'https://www.youtube.com/c/midudev',
       urlTwitter: 'https://twitter.com/midudev'

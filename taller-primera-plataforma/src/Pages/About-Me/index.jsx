@@ -1,6 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCircleCheck} from '@fortawesome/free-solid-svg-icons';
-import Footer from '../../Components/footer';
+import Footer from '../../Components/Footer/footer';
 
 export default function AboutMe() {
   const hardSkills = [

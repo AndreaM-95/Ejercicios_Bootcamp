@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Board from "../../Components/Board/Board";
 import Footer from "../../Components/Footer/footer";
-const emojiList = [...'💻💼🔎✅📚🔎🤝☕'];
+const emojiList = [...'💻💼🔎✅📚⏰🤝☕'];
 
 export default function Exercises() {
   //Guardará las imágenesg aleatorias

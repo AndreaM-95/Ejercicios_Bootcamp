@@ -1,6 +1,5 @@
 import { useRoutes , BrowserRouter } from 'react-router-dom';
 import Navbar from '../../Components/NavBar';
-import Home from '../Home';
 import Exercises from '../Exercises';
 import Developers from '../Developers'
 import Projects from '../Projects';
@@ -9,7 +8,6 @@ import './App.css'
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path:'/', element:<Home />},
     { path: '/Developers', element: <Developers /> },
     { path: '/Exercises', element: <Exercises /> },
     { path: '/Projects', element: <Projects /> },

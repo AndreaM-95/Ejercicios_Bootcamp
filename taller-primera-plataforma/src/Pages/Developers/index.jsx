@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from '../../Components/Footer/footer';
 
 export default function Developers() {
   const data = [
@@ -46,11 +47,11 @@ export default function Developers() {
   }
 
   return (
-    <>
-      <h1 className='font-bold text-4xl text-amber-900 my-7 text-center'>Devs Favoritos</h1>
+    <div  className="flex justify-center items-center bg-cover bg-center bg-fixed flex-col" style={{backgroundImage:"url(/Bg-Projects.jpg)"}}>
+      <h1 className='text-center w-full text-white font-bold text-5xl my-7'>Devs Favoritos</h1>
 
       <div className='w-[600px] m-auto'>
-        <Slider {...settings} className='bg-orange-200 my-8 rounded-xl p-5 shadow-lg shadow-indigo-900/60'>
+        <Slider {...settings} className='bg-gray-900 bg-opacity-95 border-2 rounded-lg my-8 rounded-xl p-5'>
           {data.map((d)=>(
             <>
               <div key={d.name}>
@@ -58,20 +59,22 @@ export default function Developers() {
               </div>
 
               <div className='flex flex-col item-center justify-center gap-5 p-5'>
-                <p className='text-2xl font-semibold text-amber-700 text-center'>{d.name}</p>
-                <p className='text-2xl italic text-amber-700 underline text-center'>{d.area}</p>
-                <p className='text-center text-lg  text-orange-600 text-justify	px-4'>{d.review}</p>
+                <p className='text-2xl font-semibold text-white text-center'>{d.name}</p>
+                <p className='text-2xl italic text-gray-400 underline text-center'>{d.area}</p>
+                <p className='text-center text-lg  text-gray-300 text-justify	px-4'>{d.review}</p>
               </div>
 
               <div className='flex gap-5 justify-center mb-8'>
-                <button className='bg-amber-800 font-bold py-3 rounded text-white hover:bg-amber-600 hover:scale-105 w-[100px]' onClick={()=>OpenPage(d.urlLinkedin)}>Linkedin</button>
-                <button className='bg-amber-800 font-bold py-3 rounded text-white hover:bg-amber-600 hover:scale-105 w-[100px]' onClick={()=>OpenPage(d.urlYouTube)}>YouTube</button>
-                <button className='bg-amber-800 font-bold py-3 rounded text-white hover:bg-amber-600 hover:scale-105 w-[100px]' onClick={()=>OpenPage(d.urlTwitter)}>Twitter</button>
+                <button className='bg-gray-600 font-bold py-3 rounded text-white hover:bg-gray-200 hover:scale-105 hover:text-black w-[100px]' onClick={()=>OpenPage(d.urlLinkedin)}>Linkedin</button>
+                <button className='bg-gray-600 font-bold py-3 rounded text-white hover:bg-gray-200 hover:scale-105 hover:text-black w-[100px]' onClick={()=>OpenPage(d.urlYouTube)}>YouTube</button>
+                <button className='bg-gray-600 font-bold py-3 rounded text-white hover:bg-gray-200 hover:scale-105 hover:text-black w-[100px]' onClick={()=>OpenPage(d.urlTwitter)}>Twitter</button>
               </div>
             </>
           ))}
         </Slider>
       </div>
-    </>
+
+      <Footer/>
+    </div>
   )
 }

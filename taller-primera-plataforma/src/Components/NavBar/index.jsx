@@ -1,7 +1,7 @@
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
-    const activeStyle = 'border-b-2 border-b-blue-500 pb-2'
+    const activeStyle = 'border-b-2 border-b-gray-400 pb-2'
 
     return(
         <nav className="flex justify-between items-center bg-gray-900 p-5 text-white">

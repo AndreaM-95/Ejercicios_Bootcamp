@@ -1,15 +1,13 @@
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
-    const activeStyle = 'border-b-2 border-b-amber-500 pb-2'
+    const activeStyle = 'border-b-2 border-b-blue-500 pb-2'
 
     return(
-        <nav className="flex justify-between items-center p-5 bg-amber-900 text-white">
+        <nav className="flex justify-between items-center bg-gray-900 p-5 text-white">
             <ul className="flex items-center gap-7">
-                <li className="font-semibold text-lg  hover:scale-110">
-                    <NavLink to='/'>
-                        Inicio
-                    </NavLink>
+                <li>
+                    <img src='/Mi_Logo-Blanco.png' className="w-16"></img>
                 </li>
 
                 <li className="font-semibold text-lg hover:scale-110">

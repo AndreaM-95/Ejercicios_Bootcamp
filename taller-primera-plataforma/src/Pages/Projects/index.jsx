@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="flex justify-center items-center bg-cover bg-center bg-fixed flex-col" style={{backgroundImage:"url(/Bg-Projects.jpg)"}}>
         <h1 className='text-center w-full text-white font-bold text-5xl my-7'>Algunos proyectos</h1>
 
-        <section className='flex flex-wrap my-[30px] space-x-9 justify-center'>
+        <section className='flex flex-wrap my-[30px] space-x-9 justify-center animate-fade'>
             {projects.map((item)=>(
               <div key = {item.title} className='p-4 flex flex-wrap bg-gray-900 bg-opacity-80 w-[28%] border-2 rounded-lg'>
                 <h2 className="font-medium text-white mb-4 text-center w-full text-2xl">{item.title}</h2>

@@ -50,7 +50,7 @@ export default function Developers() {
     <div  className="flex justify-center items-center bg-cover bg-center bg-fixed flex-col" style={{backgroundImage:"url(/Bg-Projects.jpg)"}}>
       <h1 className='text-center w-full text-white font-bold text-5xl my-7'>Devs Favoritos</h1>
 
-      <div className='w-[600px] m-auto'>
+      <div className='w-[600px] m-auto animate-fade-up'>
         <Slider {...settings} className='bg-gray-900 bg-opacity-95 border-2 rounded-lg my-8 rounded-xl p-5'>
           {data.map((d)=>(
             <>

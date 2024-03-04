@@ -46,7 +46,7 @@ export default function Exercises() {
   }
 
   return (
-    <div>
+    <div className="animate-fade-up">
       <h1 className='text-center w-full text-white font-bold text-5xl my-7'>Encuentra las parejas</h1>
       <Board memoBlocks={shuffledMemoBlocks} animating={animating}  handleMemoClick={handleMemoClick} />
       <Footer/>

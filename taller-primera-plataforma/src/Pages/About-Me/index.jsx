@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCircleCheck} from '@fortawesome/free-solid-svg-icons';
+import Footer from '../../Components/footer';
 
 export default function AboutMe() {
   const hardSkills = [
@@ -105,12 +106,7 @@ export default function AboutMe() {
             ))}
           </div>
         </section>
-
-        <footer className='mt-16 bg-gray-900 w-full flex justify-center flex-wrap'>
-          <img src='/Mi_Logo-Blanco.png' className='w-[7%]'></img>
-          <p className='text-white font-semibold italic w-full text-center mb-4'>Todos los derechos reservados</p>
-          <p className='text-white font-semibold italic w-full text-center mb-4'>2024</p>
-        </footer>
+        <Footer/>
       </div>
     )
 }

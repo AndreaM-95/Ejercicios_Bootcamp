@@ -15,23 +15,23 @@ export const SocialMedia = [
 
 export const NavLinks =[
     {
-        name:"/Home", // Home
-        icon:"",
+        name:"Inicio",
         link:"/",
     },
     {
-        name:"skills", // Habilidades
-        icon:"./",
-        link:"/skills",
+        name:"Proyectos",
+        link:"/proyectos",
     },
     {
-        name:"/projects", // Proyectos
-        icon:"/",
-        link:"/projects",
+        name:"Ejercicios",
+        link:"/ejercicios",
     },
     {
-        name:"/contact-Me", // Contactame
-        icon:"",
-        link:"/contact-Me",
+        name:"Habilidades",
+        link:"/habilidades",
+    },
+    {
+        name:"Contactame",
+        link:"/contacto",
     }
 ]

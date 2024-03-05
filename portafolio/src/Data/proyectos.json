@@ -1,0 +1,22 @@
+[
+    {"title":"To-Do", 
+    "video":"https://www.youtube.com/embed/-jZfDHNgIY4?si=lgO3iNBNLMl5E4Us", 
+    "tag1":"React", 
+    "tag2":"Tailwind", 
+    "tag3":"Jenkins", 
+    "description":"Una sencilla aplicación que te permite crear, consultar, modificar y eliminar las tareas que tengas por hacer en el día', rol:'Front-End"},
+    
+    {"title":"Ajiaco Apurado", 
+    "video":"https://www.youtube.com/embed/nr-d2e3c--M?si=-HLZjn3DKzXogmmy", 
+    "tag1":"Unity", 
+    "tag2":"C#", 
+    "tag3":"GGJ", 
+    "description":"Mini juego o en el que los jugadores asumen el papel de un cocinero. La misión es generar ganancias antes de que se agote el tiempo del día.', rol:'Game programmer"},
+    
+    {"title":"Exploración", 
+    "video":"https://www.youtube.com/embed/PL-GPcL-GOo?si=VGWnBEkS5ChRwle4", 
+    "tag1":"Unity", 
+    "tag2":"C#", 
+    "tag3":"PlayFab", 
+    "description":"Mini juego de exploración con el objetivo de encontrar cinco ítems para lograr desbloquear un cofre.', rol:'Game programmer"}
+]

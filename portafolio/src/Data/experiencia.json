@@ -1,0 +1,11 @@
+[
+    {"cargo": "Programador de videojuegos web", 
+    "empresa": "Books & Books Ltda", 
+    "tiempo": "8 meses",
+    "descripción": "Participé en la elaboración de simuladores interactivos 3D con el motor de Unity en donde cree el simulador de televisión y radio. Realicé la programación de todas las mecánicas con C# y/o javascript, la integración de la UI, audio, efectos especiales; también realicé la creación de todos los entornos de las 6 escenas que cada simulador contiene."},
+
+    {"cargo": "Modelador 3D", 
+    "empresa": "Workobot", 
+    "tiempo": "3 meses",
+    "descripción": "Realicé el modelado de edificios y otros elementos arquitectónicos en donde hice uso de la herramienta 3DMax para modelar todos los volumes que el proyecto requería, y el motor gráfico de Unity en donde se integraban los .fbx creados."}
+]

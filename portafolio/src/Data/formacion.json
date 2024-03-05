@@ -1,0 +1,25 @@
+[
+    {"titulo": "Desarrollo web full Stack", 
+    "fecha": "En proceso", 
+    "institucion": "Cimetrya"},
+
+    {"titulo": "Desarrollador jr en unity", 
+    "fecha": "2022-2023", 
+    "institucion": "Generation"},
+
+    {"titulo": "Diplomado en aplicaciones web", 
+    "fecha": 2022, 
+    "institucion": "Universidad tecnológica de Pereira"},
+
+    {"titulo": "Diplomado en desarrollo de software", 
+    "fecha": 2022, 
+    "institucion": "Universidad tecnológica de Pereira"},
+
+    {"titulo": "Front End", 
+    "fecha": 2022, 
+    "institucion": "Oracle + Alura latam"},
+
+    {"titulo": "Tecnólogo en procesamiento de alimentos", 
+    "fecha": "2020-2022", 
+    "institucion": "Sena"}
+]

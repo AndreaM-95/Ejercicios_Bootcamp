@@ -1,11 +1,11 @@
 import React from 'react';
 
-const page = () => {
+function page() {
   return (
     <div>
-      Background Image
+      <h2>Contacto</h2>
     </div>
   );
 }
 
-export default page
+export default page;

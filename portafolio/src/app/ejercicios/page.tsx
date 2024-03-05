@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Navegation() {
+function page() {
   return (
     <div>
-      
+      <h2>Ejercicios</h2>
     </div>
   );
 }
 
-export default Navegation;
+export default page;

@@ -1,5 +1,5 @@
 import React from 'react';
-import estudios from '../../../src/Data/formacion.json';
+import estudios from '../Data/formacion.json';
 
 export default function Formacion() {  
     return (
@@ -10,7 +10,6 @@ export default function Formacion() {
                 <h2 className="font-medium text-white mb-4 text-center w-full text-2xl">{row.titulo}</h2>
                 <h3 className='text-gray-200 w-full text-center text-xl'>{row.institucion}</h3>
                 <h4 className='text-gray-300 w-full text-center text-lg'>{row.fecha}</h4>
-                <img className='' src={row.img}/>
               </div>
             ))}  
     </section>

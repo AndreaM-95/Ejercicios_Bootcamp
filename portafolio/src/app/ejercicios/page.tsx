@@ -1,9 +1,10 @@
 import React from 'react';
+//import PomodoroTimer from '@/Components/Ejercicios';
 
 function page() {
   return (
     <div>
-      <h2>Ejercicios</h2>
+      {/*<PomodoroTimer/>*/}
     </div>
   );
 }

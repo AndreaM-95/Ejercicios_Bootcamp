@@ -25,7 +25,7 @@ export default function RootLayout({
             {NavLinks.map((item)=>(
                 <Link key={item.name}
                   href={item.link}
-                  className="font-semibold text-lg hover:scale-110"
+                  className="font-semibold text-lg hover:scale-110 hover:text-amber-300"
                 >
                 {item.name}
               </Link>

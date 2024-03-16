@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Descripcion() {
   return (
-    <div className='bg-gray-900 bg-opacity-90 mt-5 flex flex-wrap items-center justify-center py-5'>
+    <div className='bg-gray-900 bg-opacity-90 mt-5 flex flex-wrap items-center justify-center py-5 animate-fade'>
         <h1 className='text-center w-full text-white font-bold text-5xl'>Andrea Mejia</h1>
         <Image 
             src= '/Mi Foto.jpg'

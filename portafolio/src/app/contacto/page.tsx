@@ -1,9 +1,10 @@
+import Contacto from '@/Components/Contacto';
 import React from 'react';
 
 function page() {
   return (
-    <div>
-      <h2>Contacto</h2>
+    <div className='flex flex-wrap h-screen items-center'>
+      <Contacto/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import experiencia from '../Data/experiencia.json';
 
 export default function Experiencia() {
     return (
-        <section className='flex flex-wrap mt-[30px] space-x-9 justify-center w-full'>
+        <section className='flex flex-wrap mt-[30px] space-x-9 justify-center w-full animate-fade'>
             <h2 className='text-white bold w-full text-center py-4 text-4xl font-bold'>Experiencia laboral</h2>
             {experiencia.map((row)=>(
                 <div key = {row.empresa} className='p-4 flex flex-wrap bg-gray-900 bg-opacity-80 w-[28%] border-2 rounded-lg'>

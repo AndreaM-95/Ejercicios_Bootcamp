@@ -3,10 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { NavLinks } from "./Constants";
-import Footer from "@/Components/footer";
-
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/Components/PiePagina";
 
 export const metadata: Metadata = {
   title: "Andrea Mejia",
@@ -20,12 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body className={inter.className}>
-          <nav className="flex items-center bg-gray-900 p-5 text-white gap-7">
+        <body className="bg-cover bg-center bg-fixed" style={{backgroundImage:"url(/Bg-Projects.jpg)"}}>
+          <nav className="flex items-center bg-gray-900 p-4 text-white gap-7">
             {NavLinks.map((item)=>(
                 <Link key={item.name}
                   href={item.link}
-                  className="font-semibold text-lg hover:scale-110 hover:text-amber-300"
+                  className="font-semibold text-lg border-b-2 border-b-transparent hover:text-amber-300 hover:border-b-2 hover:border-b-amber-300"
                 >
                 {item.name}
               </Link>
